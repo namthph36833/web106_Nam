@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial;
+            padding: 10px;
+            background-color: white;
+            margin: 0;
+        }
+       .header{
+        padding: 10px;
+        text-align: center;
+        background-color: #EEEEEE;
+        color:black
+       }
+       .header h1{
+        font-size: 40px;
+
+       }
+       .header p{
+        font-size: 20px;
+       }
+       .navbar{
+        display: flex;
+        background-color:  #EEEEEE;
+       }
+       .navbar a{
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+       }
+       .navbar a:hover{
+        background-color: pink;
+        color: white;
+
+       }
+       .row{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .side{
+        flex-basis: 30%;
+        background-color: #EEEEEE;
+        padding: 20px;
+       }
+       .newing{
+        background-color: #EEEEEE;
+        width: 10%;
+        padding: 20px;
+       }
+       .footer{
+        padding: 10px;
+        text-align: center;
+        background-color: #EEEEEE;
+        margin-top: 10px;
+       }
+       @media screen and (max-width: 600px){
+        .row,
+        .navbar{
+            flex-direction: column;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>This is my firt webpage</h1>
+        <p>Knowledge - Experience -FAQ</p>
+        <p>Using <b>flexible</b> layout.</p>
+    </div>
+
+    
+        <div class="navbar">
+            <a href="">Home</a>
+            <a href="">Technology</a>
+            <a href="">science</a>
+            <a href="">Life</a>
+        </div>
+    <div class="row">
+        <div class="side">
+            <h2>Introduce</h2>
+            <div class="fakeing" style="height: 200px;">Imager</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Technology</h3>
+            <div class="fakeing" style="height: 60px;">Image</div><br>
+            <div class="fakeing" style="height: 60px;">Image</div><br>
+            <div class="fakeing" style="height: 60px;">Image</div>
+            <h3>Follow Me</h3>
+            <p>Face book</p>
+            <p>Youtobe</p>
+        </div>
+        <div class="main">
+            <h2>From Css</h2>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            <div class="newing" style="height: 200px;">Image</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
+            <h2>Attribute Seclector in CSS</h2>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            <div class="newing" style="height: 200px;">Image</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h4><Footer></Footer></h4>
+    </div>
+
+</body>
+</html>
