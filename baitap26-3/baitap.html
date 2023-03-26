@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+        }
+        header{
+            height: 130px;
+            border: 1px solid black;
+            display: grid;
+            align-items: center;
+            gap: 20px;
+        }
+        .logo img{
+            width: 100%;
+            height: 100%;
+            grid-column: 1/3;
+        }
+        .search{
+            grid-column: 2/4;
+        }
+        .use{
+            font-size: 90%;
+            grid-column: 4/5;
+        }
+        .use img{        
+            height: 30px;
+        }
+        .nd{
+            border: 1px solid black;
+            min-height: 300px;
+            display: grid;
+        }
+        .ndtrai{
+            grid-column: 1/2;
+            border: 1px solid black;
+             
+        }
+        .ndphai{
+            grid-column: 2/5;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            padding: 10px;
+        }
+        .vd{
+            width: 90%;
+            min-height: 140px;
+            border: 1px solid black;
+        }
+        .item{
+            gap: 20px;
+            padding: 10px;
+            text-align: left;
+        }
+        @media screen and (max-width: 900px) {
+    .search input{
+   width: 80%;
+}
+.ndphai{
+    grid-column: 3/5;
+    display: grid;
+    grid-template-columns: auto auto;   
+    gap: 10px;
+    padding: 10px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.ndtrai{
+    display: none;
+}
+.use{
+    display: none;
+}
+.vd{
+  min-height: 150px;
+      border: 1px solid black;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .search input{
+   width: 80%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.ndphai{
+    grid-column: 3/5;
+    display: grid;
+    grid-template-columns: auto;   
+    gap: 10px;
+    padding: 10px;
+}
+.ndtrai{
+    display: none;
+}
+.use{
+    display: none;
+}
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"> 
+                <img src="img/tải xuống.png" alt="logo">
+            </div>
+             <div class="search">
+                <form action="#" method="get">
+                    <input type="text" size="120" placeholder="Search" size="">
+                </form>
+             </div>
+             <div class="use">Tên người dùng <img  src="img/tải xuống (1).png" alt=""></div>
+        </header>
+    <div class="nd">
+        <div class="ndtrai">
+            <p>Section1</p>
+            <p>Section2</p>
+            <p>Section3</p>
+            <p>Section4</p>
+            <p>Section5</p>
+            <p>Section6</p>
+            <p>Section7</p>
+            <p>Section8</p>
+            <p>Section9</p>
+            <p>Section10</p>
+            <p>Section11</p>
+            <p>Section12</p>                
+            <p>Section13</p>
+            <p>Section13</p>
+            <p>Section14</p>
+            <p>Section15</p>
+        </div>
+        <div class="ndphai">
+            <div class="item"> 
+                <div class="vd"></div>
+                <b>Tiêu đề video</b> <br> <br>
+                lorem ipsum dolor sit amel <br>
+                consectetur addipdicing elit sed
+            </div>
+            <div class="item"> 
+                <div class="vd"></div>
+                <b>Tiêu đề video</b> <br> <br>
+                lorem ipsum dolor sit amel <br>
+                consectetur addipdicing elit sed
+            </div>
+            <div class="item"> 
+                <div class="vd"></div>
+                <b>Tiêu đề video</b> <br> <br>
+                lorem ipsum dolor sit amel <br>
+                consectetur addipdicing elit sed
+            </div>
+            <div class="item"> 
+                <div class="vd"></div>
+                <b>Tiêu đề video</b> <br> <br>
+                lorem ipsum dolor sit amel <br>
+                consectetur addipdicing elit sed
+            </div>
+            <div class="item"> 
+                <div class="vd"></div>
+                <b>Tiêu đề video</b> <br> <br>
+                lorem ipsum dolor sit amel <br>
+                consectetur addipdicing elit sed
+            </div>
+            <div class="item"> 
+                <div class="vd"></div>
+                <b>Tiêu đề video</b> <br> <br>
+                lorem ipsum dolor sit amel <br>
+                consectetur addipdicing elit sed
+            </div>
+            <div class="item"> 
+                <div class="vd"></div>
+                <b>Tiêu đề video</b> <br> <br>
+                lorem ipsum dolor sit amel <br>
+                consectetur addipdicing elit sed
+            </div>
+            <div class="item"> 
+                <div class="vd"></div>
+                <b>Tiêu đề video</b> <br> <br>
+                lorem ipsum dolor sit amel <br>
+                consectetur addipdicing elit sed
+            </div>
+            <div class="item"> 
+                <div class="vd"></div>
+                <b>Tiêu đề video</b> <br> <br>
+                lorem ipsum dolor sit amel <br>
+                consectetur addipdicing elit sed
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+</html>
