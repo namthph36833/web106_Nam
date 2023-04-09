@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"; rel="stylesheet">
+</head>
+<style>
+  body{
+    background-color: antiquewhite;
+  }
+  img:hover{
+    box-shadow: 0 0 5px red;
+  }
+  .card-text>u{
+    color: red;
+  }
+  .carousel-item>img{
+    height: 650px;
+  }
+  .card>img{
+    height: 300px;
+  }
+</style>
+<body>
+
+    <nav class="navbar bg-body-tertiary  " >
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img src="img/logomk.png" alt="Bootstrap" width="100" height="50">
+          </a>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Tin Tức</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Liên Hệ</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+      
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/banner8.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/banner6.jpg" class="d-block w-100" alt="...">
+            </div>
+             
+          </div>
+          <br>
+           
+          <div class="row ">
+            <div class="col text-center ">
+                <h4 class>Mời bạn để lại thông tin để được shop liên hệ và tư vấn</h4>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+        <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationDefault01" placeholder="Trần Hoàng" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationDefault02" placeholder="Nam" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label">Username</label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">Góp ý</label>
+              <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">Đánh giá cho MIKENCO SHOP: </label>
+              <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Mời bạn chọn</option>
+                <option> 5★</option>
+                <option> 4★</option>
+                <option> 3★</option>
+                <option> 2★</option>
+                <option> 1★</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Số điện thoại liên hệ</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+        
+
+    <div class="container">
+        <section class="d-flex  justify-content-center justify-content-lg-between p-4 border-botton">
+            <div class="me-5 d-none d-lg-block">
+                <span>Liên hệ ngay với shop thông qua các trang mạng xã hội: </span>
+            </div>
+
+            <div class="d-flex justify-content-end">
+        <a href="https://www.instagram.com/mikenco.official/" class="me-4 link-secondary">
+          <i class="bi bi-instagram"></i>
+        </a>
+        
+        <a href="https://www.facebook.com/Mikencovn/?mibextid=ZbWKwL" class="me-4 link-secondary">
+            <i class="bi bi-facebook"></i>
+        </a>
+       
+        <a href="https://www.tiktok.com/@mikenco.haiphong?_t=8bLaAIhzvTW&_r=1" class="me-4 link-secondary">
+            <i class="bi bi-tiktok"></i>
+        </a>
+        
+
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container text-center text-md-start mt-5 border-top">
+         <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h5>MIKENCO VIETNAM TM COMPANY LIMITED</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">MST: 0107439368</li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h5>ĐĂNG KÍ</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Được đăng ký ngày 19 tháng 05 năm 2016.</a></li>
+                 
+
+            </ul>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h5>NƠI CẤP</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Được cấp tại Sở Kế Hoạch Và Đầu Tư Thành Phố Hà Nội.</a></li>
+                 
+
+            </ul>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h5>Liên hệ</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                        <i class="bi bi-house-add "></i>
+                        Văn phòng: 35 Vũ Ngọc Phan, Láng Hạ, Đống Đa, Hà Nội.</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                                <i class="bi bi-envelope"></i>
+                                Email: mikenco09@gmail.com</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                                <i class="bi bi-phone"></i>
+                                Điện thoại: 092.696.1992</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"> 
+                                <i class="bi bi-printer"></i>
+                                02463276402</a></li>
+            
+                        </ul>
+            </div>
+         </div>
+    </div>
+    <div class="bg-danger text-center p-4 text-white">
+        <p  >© 2023 Thuộc bản quyền bởi: <strong>namthph36833</strong></p>
+    </div>
+
+</body>
+</html>

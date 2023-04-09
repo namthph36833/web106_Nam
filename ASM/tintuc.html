@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"; rel="stylesheet">
+</head>
+<style>
+  body{
+    background-color: antiquewhite;
+  }
+  img:hover{
+    box-shadow: 0 0 5px red;
+  }
+  .card-text>u{
+    color: red;
+  }
+  .carousel-item>img{
+    height: 650px;
+  }
+  .card>img{
+    height: 300px;
+  }
+</style>
+<body>
+
+    <nav class="navbar bg-body-tertiary  " >
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img src="img/logomk.png" alt="Bootstrap" width="100" height="50">
+          </a>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Tin Tức</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Liên Hệ</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+      
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/banner8.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/banner6.jpg" class="d-block w-100" alt="...">
+            </div>
+             
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#list-item-1">MIKENCO | LOONEY TUNES </a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">Street style: </a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3">MIKENCO -Lịch sử hình thành</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-4">MIKENCO - Công nghệ sản xuất</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                    class="scrollspy-example" tarên Victur. Nhấc máy lên và luyện cho tinh mắt, nhanh tay vì EPIC SALE 2023
+                    đã đến sát bên với vô vàbindex="0">
+                    <h4 id="list-item-1">Mikenco - Thương hiệu thời trang đường phố đẳng cấp tại Việt Nam</h4>
+                    <p>
+                        MIKENCO COLLABORATES WITH LOONEY TUNES’ PORKY & BUG BUNNY FOR PREMIUM EDITION COLLECTION
+                        
+                        Inspired by the images of the character who has become an icon of Generation Y – the 9th most portrayed character in movies in the world, and has his own star on the Hollywood Walk of Fame.
+                        
+                        This time, MIKENCO will take you to a new experience in New Collection 2023 MIKENCO LOONEY TUNES: Exciting trips for new generation.<br>
+    
+                        Thời trang đường phố (Street style) tồn tại như một phần tất yếu của cuộc sống. Trải qua năm tháng ngày, Street style ngày càng khẳng định vị thế trong thời trang thế giới khi được các nhà thiết kế lựa chọn xuất hiện trong các bộ sưu tập.
+                        Tại Việt Nam nhắc tới thời trang đường phố, người ta nghĩ đến thương hiệu thời trang cao cấp Mikenco. Đây là một trong những cái tên đình đám bậc nhất khi cho ra đời nhiều mẫu thiết kế độc lạ cá tính và thời thượng.</p>
+                    <h4 id="list-item-2">Khái niệm và đặc điểm nổi bật</h4>
+                    <p>Street style là phong cách thời trang xuất hiện từ nửa đầu thế kỷ XX, ra đời tại Anh. Chất đường phố ảnh hưởng mạnh mẽ để phong cách và thời trang đời thường nhằm tôn thờ chủ nghĩa cá nhân. Xu hướng này thể hiện cái tôi tiếng nói từ con người bên trong bộc lộ cá tính của chủ nhân.
+
+                        Đây là kỷ nguyên đánh dấu sự chuyển biến nổi bật từ văn hóa thượng lưu (high culture) sang văn hóa đại chúng (popular culture), đánh dấu sự phát triển vượt bậc của chủ nghĩa cá nhân. Thời trang không chỉ dành riêng cho tầng lớp thượng lưu giàu có mà còn lan tỏa ra toàn xã hội.
+                        
+                        Street style không theo bất kỳ một nguyên tắc nào về màu sắc kiểu dáng của thời trang thế giới. Những bộ trang phục trên người thể hiện "gu thẩm mỹ" của chính người sở hữu.
+                        
+                        Tại Việt Nam Street style xuất hiện vào đầu những năm 2000, được các bạn trẻ 9x đóng nhận. Song hành cùng với đó là trào lưu nhảy hiphop, beatbox tạo nên một bức tranh thời trang khác biệt và tạo dấu ấn mạnh mẽ.
+    
+                        <br>
+    
+                        
+                    <h4 id="list-item-3">Mikenco - Lịch sử hình thành thương hiệu thời trang đường phố cao cấp, nổi tiếng tại Việt Nam</h4>
+                    <p>
+                        Mikenco hoạt động với tôn chỉ tôn vinh vẻ ngoài nam tính phóng khoáng của cánh mày râu. Đồng thời, từng bộ trang phục cũng toát lên vẻ đẹp nội tâm bên trong của mỗi người đàn ông.
+
+                        Mikenco đã từng trải qua rất nhiều giai đoạn khó khăn để có thể hoàn thành sứ mệnh của mình. Đội ngũ sáng lập của Mikenco đã đi khắp các  store lớn nhỏ tại Singapore, Hồng kông, Thái Lan, Trung Quốc nghiên cứu tỉ mỉ từ thiết kế đến chất liệu đúc kết được nhiều kinh nghiệm tuyệt vời. Công ty TNHH TM La Dolce Vita chính thức được thành lập vào cuối năm 2016 với sứ mệnh trở thành thương hiệu thời trang cao cấp tại Việt Nam.
+                        
+                        Năm 2017 với sự giúp sức của những nhà thiết kế trẻ những thợ may danh tiếng mà lên nhà tại Việt Nam, La Dolce Vita đã cho ra đời sản phẩm đầu tiên mang tên Mikenco.
+                        
+                        Stylist đình đám người Mỹ Rachel Zoe chia sẻ rằng: "Phong cách là một phương thức nói lên bạn là ai mà không khiến bạn tốn một lời". Vì lẽ đó, phong cách thời trang đường phố do thương hiệu Mikenco tạo ra đã từng bước khẳng định vị thế trên bản đồ thời trang nước nhà.
+                    </p>
+                    <h4 id="list-item-4">Mikenco - Công nghệ sản xuất và đột phá kinh doanh thời trang đường phố tại Việt Nam:</h4>
+                    <p>
+                        Các sản phẩm của Mikenco được sản xuất bằng công nghệ AR hiện đại bậc nhất tại Việt Nam. Để khẳng định đẳng cấp, Mikenco còn cho ra mắt các dòng sản phẩm limited nhằm tôn thờ chủ nghĩa cá nhân của khách hàng.
+                    </p><br>
+                    <p>Qua từng năm, Mikenco đã trình làng những mẫu thiết kế độc đáo, riêng biệt, thời thượng nhằm đáp ứng thị hiếu thời trang của khách hàng. Mỗi bộ sưu tập qua các mùa sẽ ẩn chứa một câu chuyện cống hiến làm nghề riêng biệt mà chỉ Mikenco cơ sở hữu.</p><br>
+                    <p>Một điều dễ dàng nhận thấy thương hiệu thời trang cao cấp Mikenco đã tạo những nét chấm phá rõ rệt trong bức tranh toàn cảnh về thời trang Việt Nam. Nét chấm phá ấy mang vẻ đẹp của thời trang đường phố với lại vẻ đẹp lịch lãm thời thượng của thời đại bây giờ.</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="container">
+        <section class="d-flex  justify-content-center justify-content-lg-between p-4 border-botton">
+            <div class="me-5 d-none d-lg-block">
+                <span>Liên hệ ngay với shop thông qua các trang mạng xã hội: </span>
+            </div>
+
+            <div class="d-flex justify-content-end">
+        <a href="https://www.instagram.com/mikenco.official/" class="me-4 link-secondary">
+          <i class="bi bi-instagram"></i>
+        </a>
+        
+        <a href="https://www.facebook.com/Mikencovn/?mibextid=ZbWKwL" class="me-4 link-secondary">
+            <i class="bi bi-facebook"></i>
+        </a>
+       
+        <a href="https://www.tiktok.com/@mikenco.haiphong?_t=8bLaAIhzvTW&_r=1" class="me-4 link-secondary">
+            <i class="bi bi-tiktok"></i>
+        </a>
+        
+
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container text-center text-md-start mt-5 border-top">
+         <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h5>MIKENCO VIETNAM TM COMPANY LIMITED</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">MST: 0107439368</li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h5>ĐĂNG KÍ</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Được đăng ký ngày 19 tháng 05 năm 2016.</a></li>
+                 
+
+            </ul>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h5>NƠI CẤP</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Được cấp tại Sở Kế Hoạch Và Đầu Tư Thành Phố Hà Nội.</a></li>
+                 
+
+            </ul>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h5>Liên hệ</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                        <i class="bi bi-house-add "></i>
+                        Văn phòng: 35 Vũ Ngọc Phan, Láng Hạ, Đống Đa, Hà Nội.</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                                <i class="bi bi-envelope"></i>
+                                Email: mikenco09@gmail.com</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                                <i class="bi bi-phone"></i>
+                                Điện thoại: 092.696.1992</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"> 
+                                <i class="bi bi-printer"></i>
+                                02463276402</a></li>
+            
+                        </ul>
+            </div>
+         </div>
+    </div>
+    <div class="bg-danger text-center p-4 text-white">
+        <p  >© 2023 Thuộc bản quyền bởi: <strong>namthph36833</strong></p>
+    </div>
+
+</body>
+</html>
